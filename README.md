@@ -1,2 +1,8 @@
-# lqr-designer
- Design of LQR controllers
+# LQR Designer
+
+
+# Usage
+
+```
+python app.py
+```
