@@ -22,6 +22,7 @@ EXTERNAL_STYLESHEETS = [THEME, dbc.icons.FONT_AWESOME, DBC_CSS]
 
 
 app = dash.Dash(__name__, external_stylesheets=EXTERNAL_STYLESHEETS)
+server = app.server
 app.title = "LQR Designer"
 dbt.load_figure_template([THEME_NAME, THEME_NAME_DARK])
 
